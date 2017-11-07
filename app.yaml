@@ -8,3 +8,18 @@ handlers:
 - url: /index\.html  
   static_files: index.html
   upload: index\.html 
+  
+- url: /images
+  static_dir: images  
+  
+- url: /transitive
+  static_dir: transitive 
+  
+- url: /prism
+  static_dir: prism 
+  
+- url: /softstring
+  static_dir: softstring
+  
+- url: /retrospect
+  static_dir: retrospect   
